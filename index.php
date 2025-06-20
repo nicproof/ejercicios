@@ -14,8 +14,8 @@ echo "<p>La suma de $num1 y $num2 es: $suma</p>";
 echo "<p style='color: darkblue; font-weight: bold;'>  3.- Calcular el área de un rectángulo con base y altura dadas.";
 $base = 10;
 $altura = 16;
-$area = ($base * $altura)/2;
-echo "<p>El área del triangulo es la siguiente: $area</p>";
+$area = $base * $altura;
+echo "<p>El área del rectangulo es la siguiente: $area</p>";
 
 echo "<p style='color: darkblue; font-weight: bold;'> 4.- Verificar si un número es mayor que otro. ";
 $numero1 = 15;
